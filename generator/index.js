@@ -20,6 +20,7 @@ module.exports = (api, options, rootOptions) => {
       'nativescript-vue': '^2.0.2'
     },
     devDependencies: {
+      'nativescript-dev-webpack': '^0.20.1',
       'nativescript-vue-loader': '1.0.0',
       'nativescript-vue-template-compiler': '^2.0.2',
       'tns-core-modules': '^5.2.0'
@@ -52,6 +53,14 @@ module.exports = (api, options, rootOptions) => {
     const publicPath = api.resolve('public');
     if (fs.existsSync(publicPath)) {
       rimraf.sync(publicPath);
+    }
+  });
+
+  // delete the "src" directory
+  api.onCreateComplete(() => {
+    const srcPath = api.resolve('src');
+    if (fs.existsSync(srcPath)) {
+      rimraf.sync(srcPath);
     }
   });
 };
