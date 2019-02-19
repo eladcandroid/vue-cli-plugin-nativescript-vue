@@ -8,12 +8,12 @@ module.exports = (api, options, rootOptions) => {
       'watch:ios': 'vue-cli-service tns --ios',
     },
     dependencies: {
-      'nativescript-vue': '^1.3.1'
+      'nativescript-vue': '^2.0.2'
     },
     devDependencies: {
       'nativescript-vue-loader': '1.0.0',
-      'nativescript-vue-template-compiler': '^1.3.1',
-      'tns-core-modules': '^4.0.0'
+      'nativescript-vue-template-compiler': '^2.0.2',
+      'tns-core-modules': '^5.2.0'
     }
   })
 
@@ -25,6 +25,7 @@ module.exports = (api, options, rootOptions) => {
   })
 
   api.render('./templates/simple', {
+    doesCompile: api.generator.doesCompile,
     applicationName: api.generator.pkg.name,
     applicationVersion: api.generator.pkg.version,
     applicationAndroidVersionCode: api.generator.pkg.version.split('.').join('0'),

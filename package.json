@@ -1,8 +1,40 @@
 {
-  "name": "vue-cli-plugin-nativescript-vue",
-  "version": "0.0.3",
+  "_from": "git+https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git",
+  "_id": "vue-cli-plugin-nativescript-vue@0.0.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/vue-cli-plugin-nativescript-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "vue-cli-plugin-nativescript-vue@git+https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git",
+    "name": "vue-cli-plugin-nativescript-vue",
+    "escapedName": "vue-cli-plugin-nativescript-vue",
+    "rawSpec": "git+https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git",
+    "saveSpec": "git+https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git",
+    "fetchSpec": "https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git#3d54ed6f5d45f99222c3ec06b84d5560f9723dbe",
+  "_spec": "vue-cli-plugin-nativescript-vue@git+https://github.com/eladcandroid/vue-cli-plugin-nativescript-vue.git",
+  "_where": "/Users/mac/dev/vue/check-ns3",
+  "author": {
+    "name": "Igor Randjelovic"
+  },
+  "bugs": {
+    "url": "https://github.com/nativescript-vue/vue-cli-plugin-nativescript-vue/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
   "description": "A vue cli 3.x plugin for NativeScript-Vue",
-  "main": "index.js",
+  "devDependencies": {
+    "nativescript-vue-template-compiler": "^2.0.2",
+    "rimraf": "^2.6.3"
+  },
   "files": [
     "index.js",
     "lib",
@@ -10,20 +42,7 @@
     "LICENSE",
     "prompts.js"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Igor Randjelovic",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "nativescript-vue-template-compiler": "^2.0.2",
-    "rimraf": "^2.6.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nativescript-vue/vue-cli-plugin-nativescript-vue.git"
-  },
+  "homepage": "https://github.com/nativescript-vue/vue-cli-plugin-nativescript-vue#readme",
   "keywords": [
     "vue",
     "cli",
@@ -31,8 +50,15 @@
     "web",
     "plugin"
   ],
-  "bugs": {
-    "url": "https://github.com/nativescript-vue/vue-cli-plugin-nativescript-vue/issues"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "vue-cli-plugin-nativescript-vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativescript-vue/vue-cli-plugin-nativescript-vue.git"
   },
-  "homepage": "https://github.com/nativescript-vue/vue-cli-plugin-nativescript-vue#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.3"
 }

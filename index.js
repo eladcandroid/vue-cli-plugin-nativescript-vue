@@ -1,5 +1,4 @@
 const path = require('path')
-
 module.exports = (api, projectOptions) => {
   process.env.VUE_CLI_TARGET = 'nativescript'
 
